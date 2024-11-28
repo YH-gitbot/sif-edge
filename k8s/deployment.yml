@@ -13,7 +13,7 @@ spec:
         app: sif-edge
     spec:
       imagePullSecrets:
-        - name: <secret>
+        - name: sif-edge
       containers:
         - name: sif-edge
           image: yhdockerbot/sif-edge:0.1
