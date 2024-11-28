@@ -16,7 +16,7 @@ spec:
         - name: <secret>
       containers:
         - name: sif-edge
-          image: docker.io/yhdockerbot/sif-edge:0.1
+          image: yhdockerbot/sif-edge:0.1
           imagePullPolicy: "Always"
           ports:
             - containerPort: 9000
